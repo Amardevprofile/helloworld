@@ -44,10 +44,10 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>com.github.github</groupId>
+				<!-- <groupId>com.github.github</groupId>
 				<artifactId>downloads-maven-plugin</artifactId>
 				<version>0.6</version>
-				<configuration>
+				<configuration> -->
 					<description>Official ${project.name} build of the ${project.version} release</description>
 					<override>true</override>
 					<includeAttached>true</includeAttached>
